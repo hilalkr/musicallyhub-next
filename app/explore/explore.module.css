@@ -1,0 +1,207 @@
+/* 
+.exploreTitle{
+  position: absolute;
+  top: 180px;
+  left: 50px;
+  background-color: rgba(153, 41, 134, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 5px;
+  color: white;
+  writing-mode: vertical-lr; 
+  text-orientation: mixed; 
+  transform: rotate(180deg); 
+} */
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    
+}
+.mainGrid{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-content: center;
+}
+.catImg{
+
+        object-fit: contain;
+        animation: move 3s infinite ease alternate;
+} 
+    @keyframes move{
+        from{
+            transform: translateY(-15px);
+        }
+        to{
+            transform: translateY(0px) scale(1.03);
+        }
+    }
+.spotifyContainer{
+    margin-top: 200px;
+}
+
+
+  @keyframes slideIn {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+      
+    }
+  }
+  .exploreTitle{
+    margin-right: 230px;
+  }
+  
+  .title {
+
+    animation: slideIn 2s ease-in-out;
+    text-align: start;
+    max-width: 100%;
+    width: 500px;
+    align-items: center;
+    font-size: 70px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: -webkit-linear-gradient(#243bbc, #1bfcf4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+       
+  }
+  
+ .styles.animateCta {
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: hidden;
+  } 
+ 
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .spotifyContainer {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    
+  }
+  /* .spotifyContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.808);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .spotifyContainer:hover::before {
+    opacity: 1;
+    background-color: rgba(43, 42, 42, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  } */
+  
+  /* .musicsTitle{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: antiquewhite;
+    background-color:  #92027866;
+    backdrop-filter: blur(10px);
+    text-align: center;
+
+  } */
+  .spotifyGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(43, 42, 42, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+
+    padding: 10px;
+  }
+  .spotifyContainer iframe{
+    display: block;
+    border-radius: 12px;
+    
+  }
+  .spotifyGrid iframe {
+    width: calc(30% - 16px);
+    height: 352px;
+    margin-top: 30px;
+    
+  }
+.mainMusic{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: start;
+}
+.topTitle{
+font-size: 74px;
+
+align-items: center;
+justify-content: flex-start;
+color:#20375d;
+margin-bottom: 30px;
+}
+
+.styles.topTitle {
+  animation: fadeInUp 1s ease-in-out; /* Adjust animation duration as needed */
+}
+
+/* Yeni animasyon tanımı */
+@keyframes pulseAnimation {
+  0% {
+    transform: scale(1);
+    color: #20375d; /* Başlangıç rengi */
+  }
+  50% {
+    transform: scale(1.1);
+    color: #09a3ab;; /* Yarı noktada yeni renk */
+  }
+  100% {
+    transform: scale(1);
+    color: #20375d; /* Başlangıç rengine geri dön */
+  }
+}
+
+/* Animasyonun süresini ve hareketini belirleyelim */
+@-webkit-keyframes pulseAnimation {
+  0% {
+    transform: scale(1);
+    color: #20375d; /* Başlangıç rengi */
+  }
+  50% {
+    transform: scale(1.1);
+    color: #09a3ab; /* Yarı noktada yeni renk */
+  }
+  100% {
+    transform: scale(1);
+    color: #20375d; /* Başlangıç rengine geri dön */
+  }
+}
+
+.pulseAnimation {
+  animation: pulseAnimation 2s infinite; /* 2 saniye sürekli animasyon */
+  -webkit-animation: pulseAnimation 2s infinite; /* Webkit tarayıcılar için */
+}
+.subTitle{
+  font-size: 35px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  justify-content: center;
+  text-align: center;
+}

@@ -9,8 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "animate-presence": "^0.2.1",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.6",
+    "font-awesome": "^4.7.0",
+    "framer-motion": "^10.12.18",
     "next": "13.4.6",
     "react": "18.2.0",
     "react-dom": "18.2.0"

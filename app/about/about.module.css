@@ -1,0 +1,36 @@
+.container{
+
+}
+.imgContainer{
+   
+    position: relative;
+}
+.img{
+    object-fit: cover;
+}
+.imgText{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(153, 41, 134, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 5px;
+    color: white;
+}
+
+.textContainer{
+    display: flex;
+    gap: 100px;
+}
+.item{
+    flex: 1;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.desc{
+    font-size: 16px;
+    font-weight: 300;
+    text-align: justify;
+}

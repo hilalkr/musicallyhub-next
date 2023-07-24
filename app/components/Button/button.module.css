@@ -1,0 +1,13 @@
+.container {
+  padding: 12px;
+  cursor: pointer;
+  background-color: #111;
+  box-shadow: 0px 2px 5px rgb(178, 46, 167);
+  border: none;
+  border-radius: 5px;
+  min-width: 120px;
+  width: fit-content;
+  color: white;
+
+}
+

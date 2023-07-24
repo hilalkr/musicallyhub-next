@@ -1,0 +1,33 @@
+.container{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-weight: bold;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.login, .signup {
+    padding: 5px;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: border-bottom .8s ease-in-out;
+    border: none;
+  }
+  
+  .login:hover, .signup:hover {
+    transform: translateY(3px) scale(1.05);
+    border-bottom: 1px solid #b017a1;
+  }
+  
+
