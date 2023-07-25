@@ -10,8 +10,8 @@ const About = () => {
           src="https://images.pexels.com/photos/342520/pexels-photo-342520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           className={styles.img}
           alt=''
-          width={1200} // Genişlik değeri eklenmiştir
-          height={433} // Yükseklik değeri eklenmiştir
+          width={1200} 
+          height={433}
         />
         <div className={styles.imgText}>
           <h1 className={styles.imgTitle}>Digital Musics</h1>

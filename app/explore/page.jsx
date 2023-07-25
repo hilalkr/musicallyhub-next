@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./explore.module.css";
-import exploreImg from "public/explore.jpg";
 import catImg from "public/cat.png"
 
 const Explore = () => {
@@ -25,7 +24,6 @@ const Explore = () => {
         </div>
       
         <div className={styles.spotifyContainer}>
-          {/* <h1 className={styles.musicsTitle}>Discovery energy boost</h1> */}
          <div className={styles.mainMusic}>
          <h2 className={styles.topTitle}> 𝓢𝓾𝓹𝓮𝓻𝓼𝓽𝓪𝓻𝓼 𝓟𝓵𝓪𝔂𝓵𝓲𝓼𝓽 </h2>
           
@@ -106,12 +104,10 @@ const Explore = () => {
             ></iframe>
           </div>
         </div>
-        <div className={styles.infoContainer}>
-          {/* <h2 className={styles.exploreTitle}>Explore music according to your mood</h2> */}
-        </div>
       </div>
     </div>
   );
 };
 
 export default Explore;
+

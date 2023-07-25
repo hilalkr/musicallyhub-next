@@ -2,8 +2,9 @@
 import styles from './navbar.module.css'
 import React from 'react'
 import Link from 'next/link'
-import artistImg from 'public/artist.png';
 import Image from 'next/image';
+
+
 const links = [
     {
         id: 1,
