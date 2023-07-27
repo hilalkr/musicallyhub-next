@@ -1,5 +1,8 @@
 ### [Live Site](https://musicallyhub.netlify.app/)
 
+![Music Application](https://github.com/hilalkr/musicallyhub-next/assets/70345363/a938513a-b61a-45a3-8438-768aae6bbb29)
+
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
